@@ -100,7 +100,7 @@ function rand(){
   }
 }
 $(window).on('keydown',hack)
-$('.password').on('click',hack)
+$('.password').on('mousemove',hack)
 $('.rerun').on('click',rand)
 $('.start').on('click',function(){
     $(this).addClass('hidden')
